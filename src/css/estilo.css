@@ -32,7 +32,7 @@ body { /* Estiliza o corpo da página */
     color: var(--fontColor1); /* Aplica a cor de texto padrão */
     transition:  color 0.3s ease; /* Transição suave na cor */
 }
-#main { /* Container principal da página */
+main { /* Container principal da página */
     width: 100%; /* Ocupa toda a largura disponível */
 }
 
