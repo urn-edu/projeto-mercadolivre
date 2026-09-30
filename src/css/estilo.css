@@ -30,18 +30,18 @@ body { /* Estiliza o corpo da página */
     font-family: sans-serif; /* Define a fonte padrão */
     background-image: var(--bgGradient); /* Aplica o gradiente dinâmico */
     color: var(--fontColor1); /* Aplica a cor de texto padrão */
-    transition:  color 0.3s ease; /* Transição suave na cor */
+    transition: color 0.3s ease; /* Transição suave na cor */
 }
 main { /* Container principal da página */
     width: 100%; /* Ocupa toda a largura disponível */
 }
 
-.topo { /* Estiliza o cabeçalho */
+#topo { /* Estiliza o cabeçalho */
     background-color: var(--menuColor); /* Cor de fundo dinâmica do menu */
     display: flex; /* Ativa o modelo flexbox */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     padding: 10px; /* Adiciona espaçamento interno */
-    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+    transition: var(--bgGradient) 0.3s ease; /* Transição suave na cor de fundo */
 }
 
 #logo img { /* Estiliza a imagem do logotipo */
@@ -128,7 +128,7 @@ main { /* Container principal da página */
     display: flex; /* Ativa flexbox */
     flex-direction: column; /* Organiza os itens em coluna */
     justify-content: space-between; /* Distribui os itens uniformemente */
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transições suaves */
+    transition: var(--cardBg) 0.3s ease, var(--cardBorder) 0.3s ease; /* Transições suaves */
 }
 
 .card img { /* Imagem interna do card */
@@ -149,7 +149,7 @@ main { /* Container principal da página */
     background: var(--btnBg); /* Fundo dinâmico */
     border-radius: 20px; /* Arredonda as bordas em formato pílula */
     cursor: pointer; /* Cursor de clique */
-    transition: opacity 0.3s ease; /* Transição suave na opacidade */
+    transition: 0.3s ease; /* Transição suave na opacidade */
 }
 
 .card button:hover { /* Efeito ao passar o mouse no botão */
@@ -176,7 +176,7 @@ footer { /* Rodapé da página */
     margin-top: 20%; /* Distância grande do topo */
     background-color: var(--menuColor); /* Fundo dinâmico */
     color: var(--fontColor1); /* Cor de texto dinâmica */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transições suaves */
+    transition: var(--bgGradient) 0.3s ease, color 0.3s ease; /* Transições suaves */
 }
 
 /* ==========================================
